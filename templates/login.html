@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+
+    <link href="/static/css/styleLogin.css"  rel="stylesheet">
+    <script src="https://kit.fontawesome.com/845d177f21.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="card">
+        <div class="column" id="form">
+            <h1 id="login">Welcome back!</h1>
+            <p id="text1">Please, provide login credentials to proceed.</p>
+            
+            <form name="login_form" action="#">
+                <div class="form-div">
+                    <input name="email" type="text" class="form-text" placeholder="Email">
+                </div>
+
+                <div class="form-div">
+                    <input name="password" type="password" class="form-text" placeholder="Password">
+                </div>
+
+                <p class="error  error--hidden"></p>
+
+                <div class="form-div" id="checkbox">
+                    <input type="checkbox" placeholder="Remember me">
+                    <label>Remember me</label>
+                </div>
+
+                <div class="form-div">
+                    <input id="login-btn" type="submit" value="Login"/>
+                </div>
+            </form>
+        </div>
+
+        <div id="divider">
+        </div>
+
+        <div class="column" id="form">
+            <h1>Register</h1>
+            <p class="textRegister">If you are not registered, you can do it down here!</p>
+
+            <form action="/" name="register_form">
+                <input id="register-btn" type="submit" value="Sign up"/>
+            </form>
+        </div>
+    </div>
+
+    <script src="/static/js/jquery.js"></script>
+    <script src="/static/js/scripts_login.js"></script>
+</body>
+
+</html>

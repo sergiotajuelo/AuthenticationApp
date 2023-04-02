@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3551a1;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #4e31aa;
+      }
+
+      .cls-3 {
+        fill: #3a1078;
+      }
+    </style>
+  </defs>
+  <g id="Mesa_de_trabajo_1" data-name="Mesa de trabajo 1">
+    <path id="Rectángulo_1" data-name="Rectángulo 1" class="cls-1" d="M-632.986,541.814L589.779-725.134,1319.39-20.963,96.63,1245.99Z"/>
+    <path id="Rectángulo_1-2" data-name="Rectángulo 1" class="cls-2" d="M-732.22,697.358L358.7-684.748,1154.63-56.507,63.714,1325.6Z"/>
+    <path id="Rectángulo_1-3" data-name="Rectángulo 1" class="cls-3" d="M-689.5,676.373l946.31-1484.86,855.1,544.965L165.6,1221.34Z"/>
+  </g>
+</svg>

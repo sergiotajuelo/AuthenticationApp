@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your dashboard</title>
+
+    <link href="/static/css/styleDashboard.css"  rel="stylesheet">
+    <script src="https://kit.fontawesome.com/845d177f21.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="card">
+        <p>Welcome {{ session['user']['name']}}!</p>
+
+        <form name="register_form" action="#">
+            <div class="form-div">
+                <strong>ID: </strong><label>{{ session['user']['_id']}}</label>
+            </div>
+
+            <div class="form-div">
+                <strong>Name: </strong><label>{{ session['user']['name']}}</label>
+            </div>
+
+            <div class="form-div">
+                <strong>Email: </strong><label>{{ session['user']['email']}}</label>
+            </div>
+
+            <div class="btn">
+                <a href="/user/signout" class="action-btn" id="logOut">Log out</a>
+            </div>
+        </form>
+    </div>
+
+    <script src="/static/js/jquery.js"></script>
+    <script src="/static/js/scripts_dashboard.js"></script>
+</body>
+
+</html>
